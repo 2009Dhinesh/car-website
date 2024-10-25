@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+}
+.sitemenu{
+    display: none;
+}
+.logo{
+    font-size: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: "Rowdies", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+.link{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.link a{
+    margin-top: 6%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Rowdies", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.active{
+    color: blue !important;
+}
+.link a:hover{
+    color: blue;
+}
+.bgi{
+    width: 100%;
+    height: 800px;
+    /* background-image: url('../image/bgi.avif'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: #000;
+    position: relative;
+}
+.bg_content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: #fff;
+}
+.bg_content h1{
+    font-size: 60px;
+    font-family: "Rowdies", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.bg_content p{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 10%;
+    font-family: "Rowdies", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.bg_btn{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.bg_btn button{
+    padding: 10px 30px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+}
+aside{
+    position: fixed;
+    top: 40%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    padding: 10px;
+
+}
+aside img{
+    width: 70px;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+
+/* search_content */
+.search_content{
+    width: 70%;
+    height: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px rgb(0, 0, 0);
+
+}
+.search_content select{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(223, 217, 226);
+    border: none;
+    padding: 10px;
+}
+.search_content_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.search_btn{
+    margin-top: 10%;
+    margin-right: 5%;
+}
+.search_btn button{
+    padding: 10px 30px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* cars_repairs */
+.cars_repairs{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    margin-top: 10%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cars_repairs h2{
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.cars_repairs img{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.cars_repairs p{
+    margin-top: 10%;
+    text-align: justify;
+    font-size: 20px;
+}
+.cars_one , .cars_two , .cars_three{
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px rgb(0, 0, 0);
+    border: 2px solid black;
+}
+.cars_one img{
+    width: 140px;
+    margin-top: 20%;
+}
+.cars_two img{
+    width: 80px;
+
+}
+.cars_three img{
+    width: 100px;
+
+}
+.cars_border{
+    width: 30px;
+    height: 3px;
+    background-color: blue;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+.cars_one h2{
+    margin-top: 8%;
+}
+.cars_three h2{
+    margin-left: 20%;
+}
+.cars_one:hover , .cars_two:hover , .cars_three:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+.res_repair{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* new_car */
+.new_car{
+    width: 100%;
+    height: 650px;
+    /* background-color: red; */
+    padding: 20px;
+}
+.header{
+    margin-top: 4%;
+    margin-left: 40%;
+    color: #373030;
+}
+.header h5{
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #656060;
+
+}
+.header h3{
+    font-family: "Rowdies", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    margin-left: 4%;
+}
+.header_border{
+    width: 60px;
+    height: 3px;
+    background-color: blue;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+.new_cars_content{
+    display: flex;
+    justify-content: space-between;
+}
+.new_cars_content1{
+    animation: car 2s linear infinite;
+}
+/* @keyframes car{
+    0%{
+        border-corner-image: url('../image/cars.png');
+    }
+    50%{
+        border-corner-image: url('../image/cars.png');
+        
+    }
+    100%{
+        border-corner-image: url('../image/cars.png');
+
+    }
+} */
+.new_cars_content1 img{
+    width: 700px;
+}
+.new_cars_content2{
+    width: 700px;
+    margin-top: 5%;
+    margin-right: 3%;
+}
+.new_cars_content2 h2{
+    color: #363030;
+}
+.new_cars_content2 p{
+    color: #656060;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.new_car_content_btn button{
+    padding: 10px 30px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 65%;
+    margin-top: -20%;
+}
+
+/* car_brabds */
+.car_brabds{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* audio */
+.audio_pdf{
+    width: 100%;
+    height: 300px;
+
+}
+.audio i{
+    font-size: 40px
+}
+.pdf a{
+    color: #000;
+}
+.pdf i{
+    margin-top: -20%;
+    margin-left: 40%;
+    font-size: 40px
+    
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #303237;
+    color: #fff;
+    background: rgb(9,121,118);
+    background: linear-gradient(90deg, rgba(9,121,118,1) 35%, rgba(0,212,255,1) 100%);
+}
+.footer{
+    display: flex;
+}
+.footer_name{
+    width: 30%;
+    padding: 10px;
+}
+.footer_name h3{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-size: 30px;
+}
+.footer_name p{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+.footer_about,.footer_brands ,.footer_news{
+    margin: 4%;
+}
+.footer_brand{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brans_two{
+    margin-left: 10%;
+}
+footer h3{
+    margin-bottom: 10%;
+}
+.footer_news input{
+    width: 250px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10%;
+}
+
+.footer_news button{
+    padding: 10px 30px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.icons_social a i{
+    color: #fff;
+    padding: 5px;
+}
